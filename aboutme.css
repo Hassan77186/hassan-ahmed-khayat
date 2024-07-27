@@ -1,0 +1,329 @@
+/* HEADER */
+.headbar{
+    display: flex;
+    position: sticky;
+    border-bottom: 2px solid black;
+    max-width: 1200px;
+    width: 100%;
+    height: 70px;
+    margin:0px auto;
+
+}
+
+.b1{
+    position: relative;
+    width: 300px;
+    margin:10px auto;
+    height: 50px;
+
+}
+.b2{
+    width: 600px;
+    margin:10px auto;
+    height: 50px;
+
+}
+
+
+.logo{
+    border-radius: 100px;
+    box-shadow: 0px 0px 12px black;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.title{
+    font-weight: bold;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    line-height: 20px;
+    position: absolute;
+    top: 3px;
+    left: 60px;
+}
+
+.navbar {
+
+    position: absolute;
+
+}
+.navbar ul {
+    list-style: none;
+    display: inline;
+    margin: 0px auto;
+
+}
+.navbar ul li {
+    margin-right: 10px;
+    display: inline;
+
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.navbar ul li a:hover{
+    color:darkblue;
+}
+
+/* NAVBAR PHONE */
+#menulogo{
+    width: 20px;
+}
+.navbut{
+    display: none;
+    background:none;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.navbarphone{
+    text-align: center;
+}
+
+.navbarphone ul{
+   list-style: none;
+
+    
+    
+}
+.navbarphone ul li{
+    margin:10px auto;
+
+ }
+
+ .navbarphone ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: bold;
+    transition: color 0.5s;
+ }
+
+ .navbarphone ul li a:hover{
+    color:darkblue;
+}
+
+#myDIV{
+    display: none;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(233, 233, 233, 0.479);
+}
+
+/* BODY */
+.wel{
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    margin:20px auto;
+    text-align: center;
+}
+
+
+
+
+.wel .text #bsmillah{
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    width: 800px;
+    margin: 0px auto;
+}
+
+.wel .text #welcome{
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    width: 800px;
+    margin: 0px auto;
+}
+
+.con{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin:20px auto;
+}
+
+.c1{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    max-width: 600px;
+    width: 100%;
+    margin:10px auto;
+    height: 500px;
+    text-shadow: 0px 0px 5px gray;
+    padding: 5px;
+    
+}
+
+
+
+.c3{
+    max-width:800px;
+    width: 100%;
+    margin:11px auto;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+#myimg{
+    box-shadow: 0px 0px 12px black;
+    margin-left: 200px;
+
+    object-fit: cover;
+    max-width: 300px;
+    width: 100%;
+    height: 350px;
+
+
+}
+
+/* PICTURES */
+
+.pictures{
+    display :block;
+    text-align: center;
+}
+.piclist{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    margin-inline: auto;
+}
+.pictitle{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    margin-inline: auto;
+    
+}
+.pictures .liner{
+    margin-block: 10px;
+border-bottom: 1px solid black;
+max-width: 1000px;
+width: 100%;
+    margin-inline: auto;
+    
+}
+.w{
+    width: 400px;
+    margin-inline: auto;
+}
+
+
+
+.w img{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    margin-inline: auto;
+}
+
+
+
+/* SOCIALBAR */
+.socialbar{
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.social{
+    background:none;
+    border: none;
+}
+
+.socialimage{
+    border-radius: 15px;
+    width: 40px;
+    transition: width 0.5s;
+}
+.socialimage:hover{
+    box-shadow: 0px 0px  12px black;
+    width: 50px;
+}
+
+/* FOOTER */
+.footbar{
+    border-top: 2px solid black;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    height: 100px;
+    margin:0px auto;
+    text-align: center;
+
+}
+.f1{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    position: relative;
+    width: 300px;
+    margin:20px auto;
+    height: 50px;
+    padding: 10px;
+}
+.f2{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width: 600px;
+    margin:10px auto;
+    height: 50px;
+    padding: 10px;
+}
+
+
+/* PHONE */
+
+@media only screen and (max-width:767px){
+
+/* HEADER */
+.headbar{
+
+    height: 70px;
+
+
+}
+.b2{
+    width: 50px;
+}
+.navbar{
+    visibility: hidden;
+}
+.navbut{
+    display: block;
+    padding: 10px;
+    width: 50px;
+}
+.con{
+    display: block;
+}
+.piclist{
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+.f1{
+font-size: 14px;
+}
+.f2{
+font-size: 10px;
+
+}
+#myimg{
+    margin-left: 120px;
+}
+}
